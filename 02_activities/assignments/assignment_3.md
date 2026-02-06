@@ -7,7 +7,7 @@
 - Choose a dataset of interest from the [City of Toronto’s Open Data Portal](https://www.toronto.ca/city-government/data-research-maps/open-data/) or [Ontario’s Open Data Catalogue](https://data.ontario.ca/). 
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
 - For each visualization, describe and justify: 
-    > What software did you use to create your data visualization?
+    > What software did you use to create your data visualization? [ please see my answers attached in a different document]
 
     > Who is your intended audience? 
     
@@ -26,7 +26,7 @@
     > What ‘underwater labour’ contributed to your final data visualization product?
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
-- Total word count should not exceed **(as a maximum) 1000 words** 
+- Total word count should not exceed **(as a maximum) 1000 words** 4
  
 ### Why am I doing this assignment?:  
 - This ongoing assignment ensures active participation in the course, and assesses the learning outcomes: 
@@ -52,11 +52,11 @@
 * The branch name for your repo should be: `assignment-3`
 * What to submit for this assignment:
     * A folder/directory containing:
-        * This file (assignment_3.md)
-        * Two data visualizations 
-        * Two markdown files for each both visualizations with their written descriptions.
-        * Link to your dataset of choice.
-        * Complete and commented code as an appendix (for your visualization made with Python, and for the other, if relevant) 
+        * This file (assignment_3.md) - V 
+        * Two data visualizations - V visualiztion A+B 
+        * Two markdown files for each both visualizations with their written descriptions. -Attached
+        * Link to your dataset of choice.- Attched in the markdown files
+        * Complete and commented code as an appendix (for your visualization made with Python, and for the other, if relevant) - Attached in excel sheet and python
 * What the pull request link should look like for this assignment: `https://github.com/<your_github_username>/visualization/pull/<pr_id>`
     * Open a private window in your browser. Copy and paste the link to your pull request into the address bar. Make sure you can see your pull request properly. This helps the technical facilitator and learning support staff review your submission easily.
 

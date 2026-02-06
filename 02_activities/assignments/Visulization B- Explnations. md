@@ -1,0 +1,70 @@
+#  Answers - Visualiztion  B
+
+    > What software did you use to create your data visualization?
+
+    Excel (Microsoft, Windows 11)
+
+    > Who is your intended audience? 
+    
+    My visualization aims to inform manergers and policy makers in the Toronto's Shelters and Support Servises (TSSS), as well as social workers,
+    shelters' manergers, and academics. In addition, it aims to highlit differences in occupancy rates acctoss the five shelter sectors: women,
+    man, youth, mixed adults, and families, so that each group can advocacte specifically for its needs.  
+
+    > What information or message are you trying to convey with your visualization? 
+    
+    The purpose of this visualization is to reflect the need to build more emergency shelters. As in visualization A, this visualization underscores
+    the urgent need to build more shelters by calculating the annual average of occupancy rates across all sectors of shelter systems (ranging between
+    93.46 for youth to 97.83 for women). In addition, this visualization is based on the results of a one-way annova test table, reflecting the differences
+    between these sectors (which were found to be significant, p<0.05). For example, youth, men, and mixed adult shelters have lower annual occupancy
+    rate averages and higher standard deviations compared to the women and families shelters. This could be caused by a lack of facilities and beds for the women's and family 
+    sectors compared to the men and young people, or by men and young people underutilizing the services of the wardens 
+    (possibly due to physical conditions, safety, staff, etc.).
+
+    > What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots? 
+    
+    Firstly, I created two bar charts for each sector, showing the average annual occupancy rate and its standard deviation.
+    I use two different colours, ensuring that one is darker than the other (see accessibility considerations). 
+    I also placed the legend at the bottom  of the figure so it would not interrupt the interpretability of the visualization. 
+    Additionally, I used the option of "data tags" so that each bar is topped with its value, making the reading of the visualization 
+    easier (particularly given that the differences across averages are not so significant and without numbers are hard to notice). 
+    In this regard, I also increased the figure size to make interpretation easier. 
+
+
+    > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
+    
+    I employed several strategies to ensure reproducibility. First, I downloaded and saved the original dataset as a CSV file on my local machine (see the attached file). 
+    Secondly, I used a separate Excel sheet to extract and construct the variables (daily occupancy (dependent) rate factored by sector [see attached as XLS]). 
+    Doing so, I preserved the original dataset (reusability). Thirdly, I commented on my Excel sheet and provided a detailed description of the dataset and 
+    operations done on this dataset (attached also as a pdf). Lastly, I included the dataset's reference (URL) in the dataset description.
+
+    > How did you ensure that your data visualization is accessible?  
+    
+    I employed several methods to make my visualization accessible. Firstly, I used different colours for the bar and line plots. The colours are also different
+    from one another in their darkness level (orange versus dark blue), making the visualization accessible for people with colour vision deficiencies. 
+    Secondly, I used an accessible font family ('Arial Black') for the title, axes labels, axes ticks, and legend. Finally, I refrained from using acronyms
+    (e.g. standard deviations) to ensure accessibility for people unfamiliar with statistical jargon. 
+
+    > Who are the individuals and communities who might be impacted by your visualization?  
+    
+    My visualization will impact both shelter residents and workers. It aims to alleviate the overcrowding in Toronto's shelter system
+    by debunking the idea that the overoccupancy is only a winter-related phenomenon. This, I hope, will encourage the municipality to build
+    more shelters, and long-term housing solutions. 
+
+
+    > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
+    
+    My motivation was to show that monthly average occupancy rates in both bed and room shrelters (the only two occupancy rates calculated in
+    this dataset) are nearing 100% in all months of the year and across sectors. The dataset includes only daily occupancy rate calculations.
+    Additionally, I wanted to draw stakeholders' attention to the overall differences in occupancy rate averages and variability across sectors, 
+    and motivate these stakeholders to understand the causes of these differences better. 
+
+
+    > What ‘underwater labour’ contributed to your final data visualization product?
+
+    Underwater labour, with relation to my data visualization, includes the municipality shelter system workers (e.g., social service workers, social workers, 
+    guides) who collected and documented these data as part of their daily work. In addition, workers in Toronto's Shelters and Support Services (TSSS) compiled 
+    and cleaned these data into one, yearly dataset and then published it on the municipality website- making it available and accessible to the public.
+    In addition, IT (information technology) teams in Toronto's municipality ensure that the website works and keep the data available. 
+    In addition, data activists work to make social service data available. Microsoft programmers/other software engineers also contributed their knowledge
+    to enhance Excel's capacity to create better visualizations and conduct statistical tests and calculations. 
+
